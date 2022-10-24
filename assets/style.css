@@ -36,3 +36,33 @@ a:hover {
     background-color: greenyellow;
     color: black;
 }
+
+h2 {
+    color: yellow;
+}
+
+/* Home Page*/
+
+#why-visit {
+    height: 300px;
+
+}
+
+#why-visit-p {
+    width: 65%;
+    clear: left;
+}
+
+#why-visit-photo {
+    height: 285px;
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    position: relative;
+    bottom: 90px;
+}
+
+.why-visit-photos {
+    height: 190px;
+    margin: 3px;
+}
