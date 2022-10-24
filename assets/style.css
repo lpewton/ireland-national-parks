@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Nunito:wght@300&display=swap');
 
 body {
     background-color: green;
+    font-family: Alegreya, sans-serif;
 }
 
 header {
@@ -30,6 +32,8 @@ a {
     padding: 10px;
     border: solid black 1px;
     text-decoration: none;
+    position: relative;
+    top: 10px;
 }
 
 a:hover {
@@ -37,14 +41,17 @@ a:hover {
     color: black;
 }
 
-h2 {
+.heading-home {
     color: yellow;
+    font-family: nunito, sans-serif;
+    padding: 0 40%;
 }
 
 /* Home Page*/
 
 #why-visit {
     height: 300px;
+    text-align: center;
 
 }
 
@@ -54,15 +61,26 @@ h2 {
 }
 
 #why-visit-photo {
-    height: 285px;
+    height: 289px;
     width: 30%;
     float: right;
     margin-right: 5%;
     position: relative;
-    bottom: 90px;
+    bottom: 96px;
 }
 
 .why-visit-photos {
     height: 190px;
     margin: 3px;
+}
+
+#where {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#national-parks-map {
+    width: 500px;
+    height: 600px;
+    padding: 0 30%;
 }
