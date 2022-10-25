@@ -4,11 +4,12 @@
 body {
     background-color: green;
     font-family: Alegreya, sans-serif;
+    width: 1424px;
 }
 
 header {
     height: 300px;
-    background: url(assets/images/header.jpg) no-repeat center center;
+    background: url(/assets/images/header.jpg) no-repeat center center;
     background-color: green;
     background-size: cover;
 }
@@ -52,12 +53,14 @@ a:hover {
 #why-visit {
     height: 300px;
     text-align: center;
+    width: 100%;
 
 }
 
 #why-visit-p {
     width: 65%;
     clear: left;
+    text-align: left;
 }
 
 #why-visit-photo {
@@ -77,10 +80,27 @@ a:hover {
 #where {
     margin-top: 50px;
     text-align: center;
+    width: 100%;
 }
 
 #national-parks-map {
     width: 500px;
     height: 600px;
     padding: 0 30%;
+}
+
+#table-div {
+    text-align: center;
+}
+
+table {
+    border: 1px black solid;
+    position: relative;
+    left: 5%;
+}
+
+td, tr, th {
+    border: 1px black solid;
+    padding: 10px;
+    background-color: burlywood;
 }
