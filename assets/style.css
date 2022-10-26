@@ -4,12 +4,12 @@
 body {
     background-color: green;
     font-family: Alegreya, sans-serif;
-    width: 1424px;
+    width: 100%;
 }
 
 header {
     height: 300px;
-    background: url(/assets/images/header.jpg) no-repeat center center;
+    background: url('/assets/images/header.jpg') no-repeat center center;
     background-color: green;
     background-size: cover;
 }
@@ -27,14 +27,15 @@ nav {
     text-align: center;
 }
 
-a {
+.nav-a {
     color: yellow;
     background-color: darkred;
-    padding: 10px;
+    padding: 1%;
     border: solid black 1px;
     text-decoration: none;
     position: relative;
-    top: 10px;
+    top: 15px;
+    margin: 5px;
 }
 
 a:hover {
@@ -54,7 +55,7 @@ a:hover {
     height: 300px;
     text-align: center;
     width: 100%;
-
+    margin-top: 5%;
 }
 
 #why-visit-p {
@@ -78,7 +79,7 @@ a:hover {
 }
 
 #where {
-    margin-top: 50px;
+    margin-top: 5%;
     text-align: center;
     width: 100%;
 }
@@ -91,6 +92,7 @@ a:hover {
 
 #table-div {
     text-align: center;
+    margin-top: 5%;
 }
 
 table {
@@ -103,4 +105,33 @@ td, tr, th {
     border: 1px black solid;
     padding: 10px;
     background-color: burlywood;
+}
+
+/*Footer*/
+
+footer {
+    height: 50px;
+    background-color: brown;
+}
+
+.footer-list {
+    padding-top: 10px;
+}
+
+.footer-list > li {
+    display: inline;
+}
+
+.footer-list i {
+    font-size: 200%;
+    margin: 0 50px;
+    color: black;
+}
+
+li > a {
+    float: right;
+}
+
+#footer-list-p {
+    font-size: 20px;
 }
