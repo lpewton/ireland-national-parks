@@ -4,12 +4,11 @@
 body {
     background-color: green;
     font-family: Alegreya, sans-serif;
-    width: 100%;
 }
 
 header {
     height: 300px;
-    background: url('/assets/images/header.jpg') no-repeat center center;
+    background: url('../images/header.jpg') no-repeat center center;
     background-color: green;
     background-size: cover;
 }
@@ -30,7 +29,7 @@ nav {
 .nav-a {
     color: yellow;
     background-color: darkred;
-    padding: 1%;
+    padding: 4px;
     border: solid black 1px;
     text-decoration: none;
     position: relative;
@@ -59,18 +58,9 @@ a:hover {
 }
 
 #why-visit-p {
-    width: 65%;
     clear: left;
     text-align: left;
-}
-
-#why-visit-photo {
-    height: 289px;
-    width: 30%;
-    float: right;
-    margin-right: 5%;
-    position: relative;
-    bottom: 96px;
+    text-align: justify;
 }
 
 .why-visit-photos {
@@ -135,3 +125,68 @@ li > a {
 #footer-list-p {
     font-size: 20px;
 }
+
+/*Responsiveness*/
+
+@media screen and (max-width: 1200px) {
+   
+    h1 {
+    background-color: ;
+   }
+
+   nav {
+    height: 70px;
+    display: inline-flex;
+   }
+
+   .nav-a {
+    margin: px 0px;
+    padding: px;
+
+    }
+
+    #why-visit-p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #why-visit-photo {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+
+    .why-visit-photos {
+        width: 200px;
+        height: 200px;
+        margin: 0 5px;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 110%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+    h1 {
+     background-color: ;
+    }
+}
+
