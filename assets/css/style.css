@@ -42,7 +42,7 @@ a:hover {
     color: black;
 }
 
-.heading-home {
+h2 {
     color: yellow;
     font-family: nunito, sans-serif;
     padding: 0 40%;
@@ -57,9 +57,6 @@ a:hover {
 }
 
 #why-visit-p {
-    clear: left;
-    text-align: left;
-    text-align: center;
     margin: auto 10%;
     margin-bottom: 2%;
 }
@@ -125,6 +122,26 @@ li > a {
 #footer-list-p {
     font-size: 20px;
 }
+
+
+/*National Parks*/
+
+#name-heading {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#name > p {
+    text-align: center;
+    margin: 0% 5% 5%;
+}
+
+iframe {
+    height: 500px;
+    width: 750px;
+    margin: 0px 20%;
+}
+
 
 /*Responsiveness*/
 
@@ -225,3 +242,5 @@ li > a {
         width: 685px;
     }
 }
+
+
