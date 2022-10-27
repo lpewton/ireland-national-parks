@@ -22,8 +22,8 @@ h1 {
 }
 
 nav {
-    height: 40px;
     text-align: center;
+    column-count: auto;
 }
 
 .nav-a {
@@ -34,7 +34,7 @@ nav {
     text-decoration: none;
     position: relative;
     top: 15px;
-    margin: 5px;
+    margin-bottom: 10px;
 }
 
 a:hover {
@@ -64,9 +64,9 @@ a:hover {
     margin-bottom: 2%;
 }
 
-.why-visit-photos {
+.why-visit-photos { 
     height: 190px;
-    width: 270px;
+    width: 270px; 
     margin: 3px;
 }
 
@@ -186,7 +186,7 @@ li > a {
 
     .why-visit-photos {
         height: fit-content;
-        width: 350px;
+        width: 90%;
         margin: 10px 0px;
     }
 
@@ -197,6 +197,31 @@ li > a {
     }
 }
 
+@media screen and (max-width: 800px) {
+    
+    header {
+        width: 685px;
+    }
+    
+    h1 {
+        font-size: 50px;
+        position: relative;
+        top: 15%;
+    }
 
+    nav {
+        height: 100px;
+    }
 
+    .nav-a {
+        height: 92px;
+    }
 
+    div {
+        width: 685px;
+    } 
+
+    footer {
+        width: 685px;
+    }
+}
