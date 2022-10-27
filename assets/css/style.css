@@ -66,11 +66,12 @@ a:hover {
 
 .why-visit-photos {
     height: 190px;
+    width: 270px;
     margin: 3px;
 }
 
 #where {
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -136,8 +137,7 @@ li > a {
 
    .nav-a {
     margin: 0px 10px;
-    padding: 1% 0px;
-
+    padding: 1% 6px;
     }
 
     #why-visit-p {
@@ -156,37 +156,47 @@ li > a {
         margin: 0 5px;
     }
 
-    table {
-        width: 93px;
-    }
-
     td, tr, th {
         border: 1px black solid;
-        padding: 0 5px;
+        padding: 0px 5px;
         background-color: burlywood;
     }
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 @media screen and (max-width: 950px) {
-    h1 {
-     background-color: red;
+
+    .nav-a {
+        margin: 0px 10px;
+        padding: 1px 6px;
+    }
+
+    #why-visit {
+        height: fit-content;
+    }
+
+    #why-visit-p {
+        clear: both;
+    }
+
+    #home-div-photos {
+        column-count: 2;
+        margin: 0px;
+    }
+
+    .why-visit-photos {
+        height: fit-content;
+        width: 350px;
+        margin: 10px 0px;
+    }
+
+    td, tr, th {
+        border: 1px black solid;
+        padding: 0px 0px;
+        background-color: burlywood;
     }
 }
-*/
+
+
+
 
