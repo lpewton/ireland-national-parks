@@ -133,15 +133,42 @@ li > a {
 
 #name > p {
     text-align: center;
-    margin: 0% 5% 5%;
+    margin: 0% 5%;
 }
 
 iframe {
-    height: 500px;
-    width: 750px;
-    margin: 0px 20%;
+    height: 65vh;
+    width: 65vw;
+    margin: 2% 15% 0%;
 }
 
+.recommended {
+    height: 470px;
+}
+
+.recommended-header {
+    text-align: center;
+}
+
+ol {
+    float: left;
+    margin-left: 20%;
+}
+
+#killarney-hike-map {
+    float: right;
+    height: 350px;
+    margin-right: 20%;
+}
+
+#hike-link {
+    margin: 35%;
+    color: yellow;
+    background-color: brown;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 /*Responsiveness*/
 
