@@ -42,10 +42,9 @@ a:hover {
     color: black;
 }
 
-h2 {
+.home-heading {
     color: yellow;
     font-family: nunito, sans-serif;
-    padding: 0 40%;
 }
 
 /* Home Page*/
@@ -126,9 +125,11 @@ li > a {
 
 /*National Parks*/
 
-#name-heading {
-    margin-top: 5%;
+.parks-heading {
     text-align: center;
+    color: yellow;
+    font-family: nunito, sans-serif;
+    margin-top: 3%;
 }
 
 #name > p {
@@ -137,45 +138,28 @@ li > a {
 }
 
 iframe {
-    height: 65vh;
+    height: 70vh;
     width: 65vw;
-    margin: 2% 15% 0%;
+    margin: 2% 17vw 0%;
 }
 
-.recommended {
-    height: 470px;
-}
-
-.recommended-header {
-    text-align: center;
+#recommended {
+    height: 550px;
 }
 
 ol {
     float: left;
-    margin-left: 14%;
+    margin-left: 10%;
+}
+
+ol > li {
+    padding-bottom: 5%;
 }
 
 #killarney-hike-map {
     float: right;
-    height: 350px;
-    margin-right: 20%;
-}
-
-.div-parks-images > div {
-    display: inline-block;
-    padding: 0% 2%;
-    text-align: center;
-    width: min-content;
-    vertical-align: top;
-}
-
-.parks-images {
-    width: 15vw;
-    border-radius: 50%;
-}
-
-.views-images {
-    margin: 5% 2%;
+    height: 436px;
+    margin-right: 10%;
 }
 
 #hike-link {
@@ -185,6 +169,24 @@ ol {
     text-transform: uppercase;
     padding: 5px;
     border-radius: 20px;
+}
+
+.div-parks-images > div {
+    display: inline-block;
+    padding: 0% 2%;
+    text-align: center;
+    width: min-content;
+    vertical-align: middle;
+}
+
+.parks-images {
+    width: 15vw;
+    height: 162px;
+    border-radius: 50%;
+}
+
+.views-images {
+    margin: 5% 2%;
 }
 
 /*Responsiveness*/
@@ -223,6 +225,29 @@ ol {
         background-color: burlywood;
     }
 
+    /*National Parks*/
+    
+    ol {
+        width: 33vw;
+    }
+
+    ol > li {
+        padding-bottom: 0%;
+    }
+
+    #killarney-hike-map {
+        width: 320px;
+        height: 300px;
+        margin-top: 15px;
+    }
+
+    #recommended {
+        height: 420px;
+    }
+
+    #hike-link {
+        margin: 26vw;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -256,6 +281,8 @@ ol {
         padding: 0px 0px;
         background-color: burlywood;
     }
+
+    /*National Parks*/
 }
 
 @media screen and (max-width: 800px) {
