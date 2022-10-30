@@ -152,7 +152,7 @@ iframe {
 
 ol {
     float: left;
-    margin-left: 20%;
+    margin-left: 14%;
 }
 
 #killarney-hike-map {
@@ -161,8 +161,25 @@ ol {
     margin-right: 20%;
 }
 
+.div-parks-images > div {
+    display: inline-block;
+    padding: 0% 2%;
+    text-align: center;
+    width: min-content;
+    vertical-align: top;
+}
+
+.parks-images {
+    width: 15vw;
+    border-radius: 50%;
+}
+
+.views-images {
+    margin: 5% 2%;
+}
+
 #hike-link {
-    margin: 35%;
+    margin: 33vw;
     color: yellow;
     background-color: brown;
     text-transform: uppercase;
