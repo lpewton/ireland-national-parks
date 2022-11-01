@@ -23,7 +23,6 @@ h1 {
 
 nav {
     text-align: center;
-    column-count: auto;
 }
 
 .nav-a {
@@ -37,7 +36,7 @@ nav {
     margin-bottom: 10px;
 }
 
-a:hover {
+.nav-a:hover {
     background-color: greenyellow;
     color: black;
 }
@@ -138,7 +137,7 @@ li > a {
 }
 
 iframe {
-    height: 70vh;
+    height: 75vh;
     width: 65vw;
     margin: 2% 17vw 0%;
 }
@@ -158,8 +157,8 @@ ol > li {
 
 #killarney-hike-map {
     float: right;
-    height: 436px;
     margin-right: 10%;
+    width: 320px;
 }
 
 #hike-link {
@@ -226,7 +225,7 @@ ol > li {
     }
 
     /*National Parks*/
-    
+
     ol {
         width: 33vw;
     }
@@ -251,7 +250,7 @@ ol > li {
 }
 
 @media screen and (max-width: 950px) {
-
+    
     .nav-a {
         margin: 0px 10px;
         padding: 1px 6px;
@@ -259,10 +258,6 @@ ol > li {
 
     #why-visit {
         height: fit-content;
-    }
-
-    #why-visit-p {
-        clear: both;
     }
 
     #home-div-photos {
@@ -281,16 +276,14 @@ ol > li {
         padding: 0px 0px;
         background-color: burlywood;
     }
-
-    /*National Parks*/
 }
 
 @media screen and (max-width: 800px) {
     
-    header {
-        width: 685px;
+    body {
+        font-size: 10px;
     }
-    
+
     h1 {
         font-size: 50px;
         position: relative;
@@ -302,16 +295,61 @@ ol > li {
     }
 
     .nav-a {
-        height: 92px;
+        font-size: 10px;
+        margin: 1%;
+        height: 60px;
+        }
+
+    #national-parks-map {
+        width: 90vw;
+        height: 50%;
+    }
+    
+    table {
+        font-size: xx-small;
     }
 
-    div {
-        width: 685px;
-    } 
-
-    footer {
-        width: 685px;
-    }
+    .footer-list i {
+        font-size: 150%;
+        margin: 0 10px;
+        color: black;
 }
 
+    /*National Parks*/
+
+    iframe {
+        height: 50vh;
+    }
+
+    #killarney-hike-map {
+        width: 80vw;
+    }
+
+    #recommended {
+        text-align: center;
+        height: 550px;
+    }
+
+    #hike-link {
+        font-size: 5px;
+        margin: 32vw;
+        margin-top: 100px;
+    }
+
+    ol {
+        margin: 0% 15vw;
+        width: 50vw;
+    }
+
+    .div-parks-images > div {
+        vertical-align: middle;
+    }
+    .parks-images {
+        height: 50px;
+    }
+
+    figcaption {
+        font-size: 5px;
+    }
+}
 
