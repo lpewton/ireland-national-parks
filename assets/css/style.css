@@ -294,15 +294,13 @@ ol > li {
     }
 
     nav {
-        height: 50px;
-        width: 95vw;
+        height: 70px;
+        margin-bottom: 10px;
     }
 
     .nav-a {
-        font-size: 5px;
-        margin: 1vw;
-        height: 16px;
-        }
+        margin: 0% 1%;
+    }
 
     #national-parks-map {
         width: 90vw;
