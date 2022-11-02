@@ -143,7 +143,7 @@ iframe {
 }
 
 #recommended {
-    height: 550px;
+    height: 400px;
 }
 
 ol {
@@ -155,10 +155,10 @@ ol > li {
     padding-bottom: 5%;
 }
 
-#killarney-hike-map {
+.hike-map {
     float: right;
     margin-right: 10%;
-    width: 320px;
+    width: 35vw;
 }
 
 .hike-link-div {
@@ -198,6 +198,7 @@ ol > li {
    nav {
     height: 70px;
     display: inline-flex;
+    background-color: black;
    }
 
    .nav-a {
@@ -231,20 +232,24 @@ ol > li {
 
     ol {
         width: 33vw;
+        float: none;
+        margin: 0% 30vw;
     }
 
     ol > li {
         padding-bottom: 0%;
     }
 
-    #killarney-hike-map {
-        width: 320px;
+    .hike-map {
+        width: 33vw;
         height: 300px;
+        margin: 0px 33vw;
         margin-top: 15px;
     }
 
     #recommended {
         height: 420px;
+        text-align: center;
     }
 
     #hike-link {
@@ -278,6 +283,10 @@ ol > li {
         border: 1px black solid;
         padding: 0px 0px;
         background-color: burlywood;
+    }
+
+    .hike-map {
+        margin: 3% 30%;
     }
 }
 
@@ -323,8 +332,8 @@ ol > li {
         width: 60vw;
     }
 
-    #killarney-hike-map {
-        width: 80vw;
+    .hike-map {
+        height: 200px;
     }
 
     #recommended {
@@ -338,8 +347,7 @@ ol > li {
     }
 
     ol {
-        margin: 0% 15vw;
-        width: 50vw;
+        widt: 90vw;
     }
 
     .div-parks-images > div {
