@@ -142,8 +142,27 @@ iframe {
     margin: 2% 17vw 0%;
 }
 
-#recommended {
-    height: 400px;
+.recommended {
+    margin: auto 12%;
+}
+
+.recommended > div {
+    display: inline-block;
+    margin: auto 5%;
+    width: 230px;
+    height: 275px;
+    vertical-align: middle;
+}
+
+.hike {
+    background-color: greenyellow;
+    border: 3px solid black;
+    width: fit-content;
+    padding: 5px 5px 20px ;
+}
+
+h3 {
+    border: 1px solid black;
 }
 
 ol {
@@ -153,12 +172,6 @@ ol {
 
 ol > li {
     padding-bottom: 5%;
-}
-
-.hike-map {
-    float: right;
-    margin-right: 10%;
-    width: 35vw;
 }
 
 .hike-link-div {
