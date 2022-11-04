@@ -148,16 +148,33 @@ iframe {
 
 .recommended > div {
     display: inline-block;
-    margin: auto 5%;
+    magin: auto 5%;
     width: 230px;
     height: 275px;
     vertical-align: middle;
 }
 
-.hike {
+.hike-left {
+    float: left;
     background-color: greenyellow;
     border: 3px solid black;
-    width: fit-content;
+    width: 33%;
+    padding: 5px 5px 20px ;
+}
+
+.hike-center {
+    background-color: greenyellow;
+    border: 3px solid black;
+    width: 33%;
+    padding: 5px 5px 20px ;
+    margin: 0 15%;
+}
+
+.hike-right {
+    float: right;
+    background-color: greenyellow;
+    border: 3px solid black;
+    width: 33%;
     padding: 5px 5px 20px ;
 }
 
