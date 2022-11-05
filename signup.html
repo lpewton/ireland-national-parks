@@ -26,47 +26,52 @@
             <a href="ballycroy.html" class="nav-a">Ballycroy National Park</a>
             <a href="signup.html" class="nav-a">Sign up!</a>
         </nav>
+
+        <h2 id="sign-up-heading">Do you want to know more?</h2>
         
-        <form action="https://codeinstitute.net/global/full-stack-software-development-diploma/?utm_term=code+institute&utm_campaign=CI+-+IRL+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14304747355&hsa_grp=128775288209&hsa_ad=578515182410&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code+institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw8JKbBhBYEiwAs3sxN5Q6l3lf2uPCidcpPjZPhO7ruawlULwBEoxSB8fRBKb6zome4HiV1BoCoCAQAvD_BwE" method="post">
-            <div>
-                <label for="name" required>Name:</label>
-                <input type="text" id="name" name="name">
-            </div>
-            <div>
-                <label for="surname" required>Surname:</label>
-                <input type="text" id="surname" name="surname">
-            </div>
-            <div>
-                <label for="email" required>Email:</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div>
-                <label for="fitness-level">Fitness Level</label>
-                <select name="fitness-level" id="fitness-level">
-                    <option value="low">Low (can't walk more than an hour)</option>
-                    <option value="moderate">Moderate (usually does more than 4 hour hikes)</option>
-                    <option value="high">High (has done hikes of days)</option>
-                </select>
-            </div>
-            <div>
-                <p>What would you like to receive?</p>
-            </div>
-            <div>
-                <label for="check-activities">Emails on activities at the parks</label>
-                <input type="checkbox" value="activities" id="check-activities">
-            </div>
-            <div>
-                <label for="check-updates">Emails on updates on the parks</label>
-                <input type="checkbox" value="updates" id="check-updates">
-            </div>
-            <div>
-                <label for="check-experiences">Would like to hear other members' experience in the parks</label>
-                <input type="checkbox" value="experiences" id="check-experiences">
-            </div>
-            <div>
-                <input type="submit">
-            </div>
-        </form>
+        <div id="form-div">
+            <h2>Sign Up for our Newsletter!</h2>
+            <form action="https://formdump.codeinstitute.net/" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="fitness-level">Fitness Level</label>
+                    <select name="fitness-level" id="fitness-level" required>
+                        <option value="low">Low (can't walk more than an hour)</option>
+                        <option value="moderate">Moderate (usually does more than 4 hour hikes)</option>
+                        <option value="high">High (has done hikes of days)</option>
+                    </select>
+                </div>
+                <div>
+                    <p>What would you like to receive?</p>
+                </div>
+                <div>
+                    <label for="check-activities">Emails on activities at the parks</label>
+                    <input type="checkbox" value="activities" id="check-activities">
+                </div>
+                <div>
+                    <label for="check-updates">Emails on updates on the parks</label>
+                    <input type="checkbox" value="updates" id="check-updates">
+                </div>
+                <div>
+                    <label for="check-experiences">Would like to hear other members' experience in the parks</label>
+                    <input type="checkbox" value="experiences" id="check-experiences">
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
 
         <footer>
             <ul class="footer-list">

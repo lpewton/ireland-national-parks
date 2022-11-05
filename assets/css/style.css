@@ -97,6 +97,7 @@ td, tr, th {
 footer {
     height: 50px;
     background-color: brown;
+    margin: auto;
 }
 
 .footer-list {
@@ -144,34 +145,17 @@ iframe {
 
 .recommended {
     margin: auto 12%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .recommended > div {
-    display: inline-block;
-    magin: auto 5%;
     width: 230px;
     height: 275px;
     vertical-align: middle;
 }
 
-.hike-left {
-    float: left;
-    background-color: greenyellow;
-    border: 3px solid black;
-    width: 33%;
-    padding: 5px 5px 20px ;
-}
-
-.hike-center {
-    background-color: greenyellow;
-    border: 3px solid black;
-    width: 33%;
-    padding: 5px 5px 20px ;
-    margin: 0 15%;
-}
-
-.hike-right {
-    float: right;
+.hike-rec {
     background-color: greenyellow;
     border: 3px solid black;
     width: 33%;
@@ -221,8 +205,43 @@ ol > li {
     margin: 5% 2%;
 }
 
+/*Sign-up Form*/
 
+#sign-up-heading {
+    color: yellow;
+    margin-top: 40px;
+    font-family: nunito, sans-serif;
+}
 
+#form-div {
+    max-width: fit-content;
+    border: black solid 1px;
+    padding: 0% 2%;
+    background-color: greenyellow;
+    margin-bttom: 320px;
+}
+
+select {
+    max-width: 100px;
+}
+
+form > div {
+    margin-bottom: 5px;
+}
+
+input[type=submit] {
+    background-color: brown;
+    border: 1px solid red;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: brown;
+}
 
 /*Responsiveness*/
 
