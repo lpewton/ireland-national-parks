@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Nunito:wght@300&display=swap');
 
 body {
-    background-color: green;
+    background-color: white;
     font-family: Alegreya, sans-serif;
+    font-size: 1em;
 }
 
 header {
@@ -15,10 +16,10 @@ header {
 
 h1 {
     font-family: nunito, sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
     padding-top: 8%;
-    color: yellow;
+    color: orange;
 }
 
 nav {
@@ -26,14 +27,13 @@ nav {
 }
 
 .nav-a {
-    color: yellow;
-    background-color: darkred;
+    color: black;
+    background-color: orange;
     padding: 4px;
     border: solid black 1px;
     text-decoration: none;
     position: relative;
     top: 15px;
-    margin-bottom: 10px;
 }
 
 .nav-a:hover {
@@ -41,9 +41,11 @@ nav {
     color: black;
 }
 
-.home-heading {
-    color: yellow;
+.heading {
+    margin-top: 60px;
+    color: green;
     font-family: nunito, sans-serif;
+    text-align: center;
 }
 
 /* Home Page*/
@@ -60,8 +62,7 @@ nav {
 }
 
 .why-visit-photos { 
-    height: 190px;
-    width: 270px; 
+    width: 20vw;
     margin: 3px;
 }
 
@@ -89,14 +90,14 @@ table {
 td, tr, th {
     border: 1px black solid;
     padding: 0 10px;
-    background-color: burlywood;
+    background-color: orange;
 }
 
 /*Footer*/
 
 footer {
     height: 50px;
-    background-color: brown;
+    background-color: green;
     margin: auto;
 }
 
@@ -124,13 +125,6 @@ li > a {
 
 
 /*National Parks*/
-
-.parks-heading {
-    text-align: center;
-    color: yellow;
-    font-family: nunito, sans-serif;
-    margin-top: 3%;
-}
 
 #name > p {
     text-align: center;
@@ -187,12 +181,10 @@ ol > li {
     border-radius: 20px;
 }
 
-.div-parks-images > div {
-    display: inline-block;
-    padding: 0% 2%;
+.div-parks-images {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    width: min-content;
-    vertical-align: middle;
 }
 
 .parks-images {
@@ -205,10 +197,14 @@ ol > li {
     margin: 5% 2%;
 }
 
+figcaption {
+    max-width: 210px;
+}
+
 /*Sign-up Form*/
 
 #sign-up-heading {
-    color: yellow;
+    color: green;
     margin-top: 40px;
     font-family: nunito, sans-serif;
 }
@@ -218,7 +214,6 @@ ol > li {
     border: black solid 1px;
     padding: 0% 2%;
     background-color: greenyellow;
-    margin-bttom: 320px;
 }
 
 select {
@@ -230,17 +225,17 @@ form > div {
 }
 
 input[type=submit] {
-    background-color: brown;
+    background-color: orange;
     border: 1px solid red;
     padding: 5px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
 }
 
 input[type=submit]:hover {
-    background-color: white;
-    color: brown;
+    background-color: green;
+    color: orange;
 }
 
 /*Responsiveness*/
