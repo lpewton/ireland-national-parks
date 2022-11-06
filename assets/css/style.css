@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Nunito:wght@300&display=swap');
 
 body {
-    background-color: white;
     font-family: Alegreya, sans-serif;
     font-size: 1em;
 }
@@ -88,8 +87,7 @@ nav {
 
 table {
     border: 1px black solid;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 td, tr, th {
@@ -131,7 +129,7 @@ li > a {
 
 /*National Parks*/
 
-#name > p {
+#name {
     text-align: center;
     margin: 0% 5%;
 }
@@ -139,11 +137,11 @@ li > a {
 iframe {
     height: 75vh;
     width: 65vw;
-    margin: 2% 17vw 0%;
+    margin-top: 3%;
 }
 
 .recommended {
-    margin: auto 12%;
+    margin: auto 15%;
     display: flex;
     justify-content: space-between;
 }
@@ -198,10 +196,6 @@ ol > li {
     border-radius: 50%;
 }
 
-.views-images {
-    margin: 5% 2%;
-}
-
 figcaption {
     max-width: 210px;
 }
@@ -253,32 +247,14 @@ input[type=submit]:hover {
 
     /*National Parks*/
 
-    ol {
-        width: 33vw;
-        float: none;
-        margin: 0% 30vw;
+    .recommended {
+        margin: auto 8%;
     }
 
-    ol > li {
-        padding-bottom: 0%;
+    figcaption {
+        max-width: 150px;
     }
-
-    .hike-map {
-        width: 33vw;
-        height: 300px;
-        margin: 0px 33vw;
-        margin-top: 15px;
-    }
-
-    #recommended {
-        height: 420px;
-        text-align: center;
-    }
-
-    #hike-link {
-        margin: 26vw;
-    }
-}
+} 
 
 @media screen and (max-width: 950px) {
 
@@ -299,13 +275,25 @@ input[type=submit]:hover {
         padding: 1px 1px;
         background-color: orange;
     }
+
+    /*National Parks*/
+
+    .recommended {
+        margin: auto 2%;
+    }
+
+    .parks-images {
+        width: 15vw;
+        height: 120px;
+        border-radius: 50%;
+    }
 }
 
 
 @media screen and (max-width: 800px) {
-    
-    body {
-        background-color: red;
+
+    header {
+        height: 200px;
     }
 
     .nav-a {
@@ -332,7 +320,7 @@ input[type=submit]:hover {
     }
 
     .footer-list i {
-        font-size: 150%;
+        font-size: 80%;
         margin: 0 10px;
         color: black;
 }
@@ -340,39 +328,25 @@ input[type=submit]:hover {
     /*National Parks*/
 
     iframe {
-        height: 50vh;
-        width: 60vw;
+        height: 30vh;
+        width: 50vw;
     }
 
-    .hike-map {
-        height: 200px;
+    .recommended {
+        display: block;
     }
 
-    #recommended {
-        text-align: center;
-        height: 550px;
+    .recommended > div {
+        margin: auto;
     }
 
-    #hike-link {
-        margin: 32vw;
-        margin-top: 100px;
-    }
-
-    ol {
-        width: 90vw;
-    }
-
-    .div-parks-images > div {
-        vertical-align: middle;
-    }
     .parks-images {
-        width: 10vw;
-        height: auto;
-        padding: 0% 2vw;
+        height: 50px;
     }
 
     figcaption {
         font-size: 5px;
+        max-width: 70px;
     }
 }
 
