@@ -57,7 +57,7 @@ Once you click on the submit option, the information is sent to: https://formdum
 * **Footer:** 
 In this section you can see the title on the bottom left and three links that lead you to the Twitter, Facebook and Instagram page.  
 
-![image](https://user-images.githubusercontent.com/114712846/200447981-5058b5df-d11f-48e3-9694-1535af53fecc.png)
+![image](https://user-images.githubusercontent.com/114712846/200460712-9af7ec20-a396-4eb7-aff5-ab0fdb730d50.png)
 
 ## Testing:
 * This webpage was tested on the following browser: Firefox, Safari and Chrome. It worked on all of them.
@@ -76,6 +76,9 @@ In this section you can see the title on the bottom left and three links that le
 * HTML: No errors weere found when passing the code through the official W3C validator
 * CSS: No errors weere found when passing the code through the official W3C validator
 * Accessibility: Tested the results throught the  Lighthouse test, the performance is a bit low because of the quantity of images and the missuse of Javascript. This can be fixed in the future. 
+
+![image](https://user-images.githubusercontent.com/114712846/200460584-c533e47d-133a-49a4-a025-fdc67518eea4.png)
+
 
 
 ## Unfixed bugs:
