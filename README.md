@@ -28,3 +28,54 @@ Once you click on the submit option, the information is sent to: https://formdum
 
 * **Footer:** 
 In this section you can see the title on the bottom left and three links that lead you to the Twitter, Facebook and Instagram page.  
+
+## Testing:
+* This webpage was tested on the following browser: Firefox, Safari and Chrome. It worked on all of them.
+* This project is responsive on all devices, it was tested through DevTools and opening it on phones, tablets and computers.
+* The contrast of colors and letter sizing make the webpage easy to read and understand.
+* The form works, the fields are all required and when you click on the submit button it sends you to the correct page with the right information.
+
+## Bugs:
+* When opening the project on phones, I found that the photographs were not well seen on my phone, but they were seen well on DevTools.
+* Issue solved by changing all of the sizes to Viewport and Percentages instea of pixels.
+* I had problems aligning the elements to the center or correctly.
+* Issue was solved by discovering and learning about the "flex" attribute.
+* Some bugs kept popping up while developing the website, but the were solved as the appeared
+
+## Validator Testing:
+* HTML:
+* CSS:
+* Accessibility:
+
+## Unfixed bugs:
+* I tried to create a hamburger menu because the navigation bar is a bit small on phone sizes, but due to lack of time and knowledge on Java and Bootstrap, I left the webpage with the small navigation bar.
+
+## Deployment:
+* The site is deployed on GitHub pages. The steps followed to deploy it are the following:
+  *  Navigate to the Git repository page and go into *settings*
+  *  Master-Branch was selected from the drpdown menu
+  *  Click on the link provided by the page
+  
+You can find the link here: https://lpewton.github.io/ireland-national-parks/index.html
+
+## Credits:
+### Content:
+* Some of the code was based on the Love Running Project
+### Media:
+* The images were all extracted from Google Images
+* All the information on the parks comes from the follwing links:
+  *  Killarney National Park: https://www.killarneynationalpark.ie/
+  *  Glenveagh National Park: https://www.glenveaghnationalpark.ie/
+  *  Connemara National Park: https://www.connemaranationalpark.ie/
+  *  Burren National Park: https://www.burrennationalpark.ie/
+  *  Wicklow Mountains National Park: https://www.wicklowmountainsnationalpark.ie/
+  *  Ballycroy National Park: https://www.wildnephinnationalpark.ie/
+* The information on the hikes all comes from the following: https://www.alltrails.com/ 
+  
+## Acknowledgements;
+* I would like to thank my tutor for giving me support and help throughout the project.
+* I would like to thank my friends and my family for helping me with the design and coloring of the website
+* Finally, I would like to thank my classmates for helping me solve some issues and situations
+
+
+
