@@ -3,31 +3,61 @@ This webpage gives you information about all 6 National Parks in Ireland, as wel
 You can also sign up to gather information on some of the park activities and updates.
 This website is designed for all ages, tourists who want to see the country and locals who want to get to know it better.
 
+![image](https://user-images.githubusercontent.com/114712846/200446836-d941f5c2-7f9f-4545-9bc5-d0b47ce3837b.png)
+
 ## Features:
 
 * **Header**: 
 The header shows the purpose of the webpage and has a background image of an irish landscape.
 
+![image](https://user-images.githubusercontent.com/114712846/200447250-4205b0af-1138-4054-8781-a24f6220a579.png)
+
 * **Navigation:** The navigation bar allows you to move through the different pages: Home Page, each of the parks and the sign-up page.
 
+![image](https://user-images.githubusercontent.com/114712846/200447299-01de3169-a835-40a2-877c-d1eacf4f4cb1.png)
+
 * **Home page:** This page is different from the others, it introduces the theme and gives information that is useful for the rest of the webpage.
-  *  At the top of the page there is a brief description of why you should visit Ireland's Natural Parks, with some appealing images of landscapes
-  *  Beneath that, you will find a map of Ireland, with the location of the parks marked on it
-  *  Finally, there is a table of contents, which expresses the sunrinse and sunset times, the average temperature and the average days of rain in order to ensure the best experience for the visitors
+  *  At the top of the page there is a brief description of why you should visit Ireland's Natural Parks, with some appealing images of landscapes.
+  
+  ![image](https://user-images.githubusercontent.com/114712846/200447555-4df005af-8154-49a4-b217-703ae847bf87.png)
+
+  *  Beneath that, you will find a map of Ireland, with the location of the parks marked on it.
+  
+![image](https://user-images.githubusercontent.com/114712846/200447490-4fc81ed1-7f36-41b0-9fee-c83dd0d3e6fa.png)
+
+
+  *  Finally, there is a table of contents, which expresses the sunrinse and sunset times, the average temperature and the average days of rain in order to ensure the best experience for the visitors.
+  
+![image](https://user-images.githubusercontent.com/114712846/200447598-26a3fb76-a841-49ae-b2b6-135a26785415.png)
  
 * **Parks Pages:** These pages are all built in the same style, and each one expresses information on a different park. The structure is the following on each page: 
   *  At the top of the page you will find a brief description of the park, which you can expand to read it all or you can hide in order to see the webpage more clearly.
+
+![image](https://user-images.githubusercontent.com/114712846/200447653-33749df4-10fc-4d10-a6b7-495be7504cb9.png)
+
   *  Under that, you will see an iframe with an interactive map so you can see where the park is and virtually explore the surrounding areas.
+
+![image](https://user-images.githubusercontent.com/114712846/200447693-a6f261e6-5053-4979-9724-c1f8a77404cb.png)
+
   *  You will then see three recommended hikes, an easy one, a moderate one and a difficult hike. In each of them, you can see the starting point, the ending point, the difficulty, lenght (in distance and time), ascent and the rating given by hikers who have tried it.
+
+![image](https://user-images.githubusercontent.com/114712846/200447797-20ce55e6-3500-4587-96a3-c85abcdd6021.png)
+
   *  Finally, there is a section with a gallery of images with a list of must-sees: animals being on the top row, views and landscapes on the middle and archaeological sites on the bottom row.
+
+![image](https://user-images.githubusercontent.com/114712846/200447841-d167b0e4-5d3d-4774-bc9e-e08846ae988b.png)
 
 * **Sign-Up page:**
 In the signup page you will find a form in which you can sign up for 3 options:to receive emails about cativities done at the parks, to receive emails about updates from the park and to receive emails about other member's experiences at the parks.
 In this form, you will need to fill out your name, surname, email account and fitness level, in order to personalise your experience to the maximum
 Once you click on the submit option, the information is sent to: https://formdump.codeinstitute.net/ and you are redirected to a page that informs you the information has been submitted correctly.
 
+![image](https://user-images.githubusercontent.com/114712846/200447935-54d30057-65e8-44ae-a5f7-d41285cc556d.png)
+
 * **Footer:** 
 In this section you can see the title on the bottom left and three links that lead you to the Twitter, Facebook and Instagram page.  
+
+![image](https://user-images.githubusercontent.com/114712846/200447981-5058b5df-d11f-48e3-9694-1535af53fecc.png)
 
 ## Testing:
 * This webpage was tested on the following browser: Firefox, Safari and Chrome. It worked on all of them.
@@ -63,6 +93,7 @@ You can find the link here: https://lpewton.github.io/ireland-national-parks/ind
 * Some of the code was based on the Love Running Project
 ### Media:
 * The images were all extracted from Google Images
+* The information on the table of contents came from the following page: https://www.irelands-blue-book.ie/IrishWeather.html
 * All the information on the parks comes from the follwing links:
   *  Killarney National Park: https://www.killarneynationalpark.ie/
   *  Glenveagh National Park: https://www.glenveaghnationalpark.ie/
@@ -72,7 +103,7 @@ You can find the link here: https://lpewton.github.io/ireland-national-parks/ind
   *  Ballycroy National Park: https://www.wildnephinnationalpark.ie/
 * The information on the hikes all comes from the following: https://www.alltrails.com/ 
   
-## Acknowledgements;
+## Acknowledgements:
 * I would like to thank my tutor for giving me support and help throughout the project.
 * I would like to thank my friends and my family for helping me with the design and coloring of the website
 * Finally, I would like to thank my classmates for helping me solve some issues and situations
