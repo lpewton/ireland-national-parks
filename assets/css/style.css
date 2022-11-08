@@ -208,6 +208,7 @@ figcaption {
     font-family: nunito, sans-serif;
 }
 
+
 #form-div {
     max-width: fit-content;
     border: black solid 1px;
@@ -223,6 +224,10 @@ form > div {
     margin-bottom: 5px;
 }
 
+.texts {
+    width: 0px;
+}
+
 input[type=submit] {
     background-color: orange;
     border: 1px solid red;
@@ -235,6 +240,10 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: green;
     color: orange;
+}
+
+#signup-div {
+    display: inline-block;
 }
 
 /*Responsiveness*/
@@ -296,8 +305,12 @@ input[type=submit]:hover {
         height: 200px;
     }
 
+    h1 {
+        font-size: 40px;
+    }
+
     .nav-a {
-        font-size: x-small;
+        font-size: xx-small;
     }
 
     .heading {
@@ -328,8 +341,8 @@ input[type=submit]:hover {
     /*National Parks*/
 
     iframe {
-        height: 30vh;
-        width: 50vw;
+        height: 60vh;
+        width: 60vw;
     }
 
     .recommended {
