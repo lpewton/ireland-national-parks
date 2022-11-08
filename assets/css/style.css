@@ -100,7 +100,7 @@ td, tr, th {
 
 footer {
     height: 50px;
-    background-color: green;
+    background-color: lightgreen;
     margin: auto;
 }
 
@@ -176,7 +176,7 @@ ol > li {
     text-align: center;
 }
 
-#hike-link {
+.hike-link {
     color: yellow;
     background-color: brown;
     text-transform: uppercase;

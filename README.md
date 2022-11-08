@@ -73,9 +73,10 @@ In this section you can see the title on the bottom left and three links that le
 * Some bugs kept popping up while developing the website, but the were solved as the appeared
 
 ## Validator Testing:
-* HTML:
-* CSS:
-* Accessibility:
+* HTML: No errors weere found when passing the code through the official W3C validator
+* CSS: No errors weere found when passing the code through the official W3C validator
+* Accessibility: Tested the results throught the  Lighthouse test, the performance is a bit low because of the quantity of images and the missuse of Javascript. This can be fixed in the future. 
+
 
 ## Unfixed bugs:
 * I tried to create a hamburger menu because the navigation bar is a bit small on phone sizes, but due to lack of time and knowledge on Java and Bootstrap, I left the webpage with the small navigation bar.
