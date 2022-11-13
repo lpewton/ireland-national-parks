@@ -41,15 +41,15 @@ The header shows the purpose of the webpage and has a background image of an iri
 
   *  You will then see three recommended hikes, an easy one, a moderate one and a difficult hike. In each of them, you can see the starting point, the ending point, the difficulty, lenght (in distance and time), ascent and the rating given by hikers who have tried it.
 
-![image](https://user-images.githubusercontent.com/114712846/200447797-20ce55e6-3500-4587-96a3-c85abcdd6021.png)
+![Screen Shot 2022-11-13 at 16 26 11](https://user-images.githubusercontent.com/114712846/201529793-08b1aeb6-43bb-48d8-b216-aacc01bc7838.png)
 
   *  Finally, there is a section with a gallery of images with a list of must-sees: animals being on the top row, views and landscapes on the middle and archaeological sites on the bottom row.
 
 ![image](https://user-images.githubusercontent.com/114712846/200447841-d167b0e4-5d3d-4774-bc9e-e08846ae988b.png)
 
 * **Sign-Up page:**
-In the signup page you will find a form in which you can sign up for 3 options:to receive emails about cativities done at the parks, to receive emails about updates from the park and to receive emails about other member's experiences at the parks.
-In this form, you will need to fill out your name, surname, email account and fitness level, in order to personalise your experience to the maximum
+In the signup page you will find a form in which you can sign up for 3 options: to receive emails about activities done at the parks, to receive emails about updates from the parks and to receive emails about other member's experiences at the parks.
+In this form, you will need to fill out your name, surname, email account and fitness level, in order to personalise your experience to the maximum.
 Once you click on the submit option, the information is sent to: https://formdump.codeinstitute.net/ and you are redirected to a page that informs you the information has been submitted correctly.
 
 ![image](https://user-images.githubusercontent.com/114712846/200447935-54d30057-65e8-44ae-a5f7-d41285cc556d.png)
@@ -73,16 +73,16 @@ In this section you can see the title on the bottom left and three links that le
 * Some bugs kept popping up while developing the website, but the were solved as the appeared
 
 ## Validator Testing:
-* HTML: No errors weere found when passing the code through the official W3C validator
-* CSS: No errors weere found when passing the code through the official W3C validator
-* Accessibility: Tested the results throught the  Lighthouse test, the performance is a bit low because of the quantity of images and the missuse of Javascript. This can be fixed in the future. 
+* HTML: No errors were found when passing the code through the official W3C validator
+* CSS: No errors were found when passing the code through the official W3C validator
+* Accessibility: Tested the results throught the  Lighthouse test, the performance is a bit low because of the quantity of images and the lack of Javascript. This can be fixed in the future. 
 
 ![image](https://user-images.githubusercontent.com/114712846/200460584-c533e47d-133a-49a4-a025-fdc67518eea4.png)
 
 
 
 ## Unfixed bugs:
-* I tried to create a hamburger menu because the navigation bar is a bit small on phone sizes, but due to lack of time and knowledge on Java and Bootstrap, I left the webpage with the small navigation bar.
+* I tried to create a hamburger menu because the navigation bar is a bit small on phone sizes, but due to lack of time and knowledge on Java and Bootstrap, I left the webpage with the small font in the navigation bar.
 
 ## Deployment:
 * The site is deployed on GitHub pages. The steps followed to deploy it are the following:
