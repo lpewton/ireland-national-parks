@@ -148,7 +148,6 @@ iframe {
 
 .recommended > div {
     width: 230px;
-    height: 275px;
     vertical-align: middle;
 }
 
@@ -177,11 +176,12 @@ ol > li {
 }
 
 .hike-link {
-    color: yellow;
-    background-color: brown;
+    color: black;
+    background-color: orange;
     text-transform: uppercase;
     padding: 5px;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .div-parks-images {
@@ -337,16 +337,18 @@ input[type=submit]:hover {
     }
 
     .footer-list i {
-        font-size: 80%;
-        margin: 0 10px;
+        font-size: 110%;
+        margin: 0 20px;
         color: black;
-}
+        padding-top: 5px;
+    }
+
 
     /*National Parks*/
 
     iframe {
         height: 60vh;
-        width: 60vw;
+        width: 70vw;
     }
 
     .recommended {
@@ -354,16 +356,21 @@ input[type=submit]:hover {
     }
 
     .recommended > div {
-        margin: auto;
+        margin: 10px auto;
+    }
+
+    .div-parks-images {
+        margin-top: 30px;
     }
 
     .parks-images {
-        height: 70px;
+        width: 15vw;
+        height: 90px;
     }
 
     figcaption {
-        font-size: 5px;
-        max-width: 70px;
+        font-size: 10px;
+        max-width: 15vw;
     }
 }
 

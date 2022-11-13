@@ -41,7 +41,7 @@ The header shows the purpose of the webpage and has a background image of an iri
 
   *  You will then see three recommended hikes, an easy one, a moderate one and a difficult hike. In each of them, you can see the starting point, the ending point, the difficulty, lenght (in distance and time), ascent and the rating given by hikers who have tried it.
 
-![image](https://user-images.githubusercontent.com/114712846/200447797-20ce55e6-3500-4587-96a3-c85abcdd6021.png)
+  
 
   *  Finally, there is a section with a gallery of images with a list of must-sees: animals being on the top row, views and landscapes on the middle and archaeological sites on the bottom row.
 
