@@ -343,6 +343,10 @@ input[type=submit]:hover {
         padding-top: 5px;
     }
 
+    #footer-list-p {
+        font-size: smaller;
+    }
+
 
     /*National Parks*/
 
@@ -365,7 +369,7 @@ input[type=submit]:hover {
 
     .parks-images {
         width: 15vw;
-        height: 90px;
+        height: 70px;
     }
 
     figcaption {
