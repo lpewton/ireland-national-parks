@@ -3,7 +3,7 @@ This webpage gives you information about all 6 National Parks in Ireland, as wel
 You can also sign up to gather information on some of the park activities and updates.
 This website is designed for all ages, tourists who want to see the country and locals who want to get to know it better.
 
-![image](https://user-images.githubusercontent.com/114712846/200446836-d941f5c2-7f9f-4545-9bc5-d0b47ce3837b.png)
+![Screen Shot 2022-11-13 at 22 26 51](https://user-images.githubusercontent.com/114712846/201545398-c8b39249-b93c-4b65-b349-f3bf65f44887.png)
 
 ## Features:
 
@@ -40,8 +40,8 @@ The header shows the purpose of the webpage and has a background image of an iri
 ![image](https://user-images.githubusercontent.com/114712846/200447693-a6f261e6-5053-4979-9724-c1f8a77404cb.png)
 
   *  You will then see three recommended hikes, an easy one, a moderate one and a difficult hike. In each of them, you can see the starting point, the ending point, the difficulty, lenght (in distance and time), ascent and the rating given by hikers who have tried it.
-
-![image](https://user-images.githubusercontent.com/114712846/201529793-08b1aeb6-43bb-48d8-b216-aacc01bc7838.png)
+  
+![Screen Shot 2022-11-13 at 16 26 11](https://user-images.githubusercontent.com/114712846/201545260-4909bb28-0e6b-4cdb-ba7f-1be84eebf8ec.png)
 
   *  Finally, there is a section with a gallery of images with a list of must-sees: animals being on the top row, views and landscapes on the middle and archaeological sites on the bottom row.
 
@@ -52,7 +52,8 @@ In the signup page you will find a form in which you can sign up for 3 options: 
 In this form, you will need to fill out your name, surname, email account and fitness level, in order to personalise your experience to the maximum.
 Once you click on the submit option, the information is sent to: https://formdump.codeinstitute.net/ and you are redirected to a page that informs you the information has been submitted correctly.
 
-![image](https://user-images.githubusercontent.com/114712846/200447935-54d30057-65e8-44ae-a5f7-d41285cc556d.png)
+![Screen Shot 2022-11-13 at 22 23 42](https://user-images.githubusercontent.com/114712846/201545291-5ddb3659-18f5-45bd-b6b3-6886c2ce78a2.png)
+
 
 * **Footer:** 
 In this section you can see the title on the bottom left and three links that lead you to the Twitter, Facebook and Instagram page.  
