@@ -71,12 +71,12 @@ In this section you can see the title on the bottom left and three links that le
 * Issue solved by changing all of the sizes to Viewport and Percentages instea of pixels.
 * I had problems aligning the elements to the center or correctly.
 * Issue was solved by discovering and learning about the "flex" attribute.
-* Some bugs kept popping up while developing the website, but the were solved as the appeared
+* Some bugs kept popping up while developing the website, but they were solved as the appeared.
 
 ## Validator Testing:
-* HTML: No errors were found when passing the code through the official W3C validator
-* CSS: No errors were found when passing the code through the official W3C validator
-* Accessibility: Tested the results throught the  Lighthouse test, the performance is a bit low because of the quantity of images and the lack of Javascript. This can be fixed in the future. 
+* HTML: No errors were found when passing the code through the official W3C validator.
+* CSS: No errors were found when passing the code through the official W3C validator.
+* Accessibility: Tested the results throught the  Lighthouse test, the performance is a bit low because of the quantity of images and the lack of Javascript. This can be fixed in the future, by applying JavaScript to the navigation bar, for example. 
 
 ![image](https://user-images.githubusercontent.com/114712846/200460584-c533e47d-133a-49a4-a025-fdc67518eea4.png)
 
