@@ -48,6 +48,9 @@ nav {
 
 .heading {
     font-family: nunito, sans-serif;
+    color: green;
+    text-align: center;
+    margin-top: 3%;
 }
 
 /*Footer*/
